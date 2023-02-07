@@ -1,0 +1,12 @@
+.header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: hsl(185, 41%, 84%);
+}
+.logo{
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+

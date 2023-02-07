@@ -1,0 +1,11 @@
+.footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: hsl(185, 41%, 84%);
+}
+.attribution{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}

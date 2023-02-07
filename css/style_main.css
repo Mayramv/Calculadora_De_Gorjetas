@@ -1,0 +1,11 @@
+.main{
+    width: 100%;
+    display: flex;
+    background-color: hsl(185, 41%, 84%);
+    justify-content: center;
+}
+.calculadora{
+    width: 50%;
+    height: 400px;
+    background-color: white;
+}
