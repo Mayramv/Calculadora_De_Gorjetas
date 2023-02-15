@@ -19,35 +19,35 @@
     <div class="calculadora">
       <div class="bill">
         <label for="">Bill</label>
-        <input type="number" id="people" class="input-bill" required placeholder=" " >
+        <input type="number" id="bill" class="input-bill" required placeholder=" " >
       <div class="porcentagem">
         <label for="" >Select Tip %</label>
-        <div  class ="opcoes_porcentagem" >
-          <input type="button" value="5%"  class="botao">
-          <input type="button" value="10%" class="botao">
-          <input type="button" value="15%" class="botao">
-          <input type="button" value="25%" class="botao">
-          <input type="button" value="50%" class="botao">
-          <input type="text"  class="botao"  placeholder="Costum");>
+        <div  class ="opcoes_porcentagem"  >
+          <input type="button" value="5"  class="botao" id="5" data-botao >
+          <input type="button" value="10" class="botao" id="botao10">
+          <input type="button" value="15" class="botao" id="botao15">
+          <input type="button" value="25" class="botao" id="botao25">
+          <input type="button" value="50" class="botao" id="botao50">
+          <input type="text"  class="botao" id="costum"  placeholder="Costum");>
           
         </div>
         
         <label for="">Number of People</label>
         <span  class ="aviso"> Can' t be zero </span>
-        <input type="number" id="bill" class="input-people" required placeholder=" ">
+        <input type="number" id="people" class="input-people" required placeholder=" ">
       </div>
         
      </div>
      <div class="valor">
       <div  class ="valores" >
-         <h3 class="valores_letras">Tip Amount</h3>
-         <h3 class="valores_numero"> $ 8.50 </h3 >
+         <h3 class="valores_letras">Tip Amount/por pessoa  </h3>
+         <h3 class="valores_numero" id="resultado_pessoa"> $ 00 </h3 >
           
           
       </div >
       <div  class ="valores">
-          <h3 class="valores_letras"> Total </h3>  
-          <h3  class="valores_numero"> $ 50.51 </h3>
+          <h3 class="valores_letras"> Total/ por pessoa  </h3>  
+          <h3  class="valores_numero" id="resultado_total" > $ 00 </h3>
           
       </div >
       <div class="reset">
