@@ -4,6 +4,10 @@
     height: 400px;
     background-color: hsl(185, 41%, 84%);
     justify-content: center;
+    font-family: 'Space Mono', monoespaço;
+    color: rgb(110, 110, 110);
+    font-size: 12px;
+    
 }
 .calculadora{
     width: 50%;
@@ -21,6 +25,7 @@
    
     
 }
+
 .bill{
     width: 40%;
     height: 245PX;
@@ -52,6 +57,7 @@
     font-size: 16px;
     text-align:end;
     cursor: pointer;
+    
 }
 .input-people{
     padding-top: 1em;
@@ -68,6 +74,7 @@
 .input-people::placeholder{
     background: url(../images/icon-person.svg) no-repeat;
     background-position: 1em;
+    padding-bottom: 1px;
     
 }
 .input-bill::placeholder{
@@ -100,10 +107,14 @@
     cursor: pointer;
 
 }
+.alterar{
+    background-color:hsl(172, 67%, 45%);
+}
 .aviso{
-    font-size: 12px;
+    font-size: 8px;
     color: rgb(201, 25, 25);
     margin-left: 50px;
+    
 }
 .valores{
     display: flex;
@@ -124,12 +135,12 @@
 .valores_numero{
     color:hsl(172, 67%, 45%);
 
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 24px;
 }
-.red{
-    color: rgb(100, 4, 4);
-    font-size: 15px;
+.porPessoa{
+    color: hsl(186, 14%, 43%);
+   
     font-weight: bold
     
 }

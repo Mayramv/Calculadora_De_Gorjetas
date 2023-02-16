@@ -23,16 +23,16 @@
       <div class="porcentagem">
         <label for="" >Select Tip %</label>
         <div  class ="opcoes_porcentagem"  >
-          <input type="button" value="5"  class="botao" id="5" data-botao >
-          <input type="button" value="10" class="botao" id="botao10">
-          <input type="button" value="15" class="botao" id="botao15">
-          <input type="button" value="25" class="botao" id="botao25">
-          <input type="button" value="50" class="botao" id="botao50">
-          <input type="text"  class="botao" id="costum"  placeholder="Costum");>
+          <input type="button" value="5"  class="botao" id="botao5"  onclick="document.querySelector('#botao5').classList.add('alterar')">
+          <input type="button" value="10" class="botao" id="botao10" onclick="document.querySelector('#botao10').classList.add('alterar')">
+          <input type="button" value="15" class="botao" id="botao15" onclick="document.querySelector('#botao15').classList.add('alterar')">
+          <input type="button" value="25" class="botao" id="botao25" onclick="document.querySelector('#botao25').classList.add('alterar')">
+          <input type="button" value="50" class="botao" id="botao50"  onclick="document.querySelector('#botao50').classList.add('alterar')">
+          <input type="text"  class="botao" id="costum"  placeholder="Costum" onclick="document.querySelector('#costum').classList.add('alterar')">
           
         </div>
         
-        <label for="">Number of People</label>
+        <label for="" >Number of People</label>
         <span  class ="aviso"> Can' t be zero </span>
         <input type="number" id="people" class="input-people" required placeholder=" ">
       </div>
@@ -40,14 +40,14 @@
      </div>
      <div class="valor">
       <div  class ="valores" >
-         <h3 class="valores_letras">Tip Amount<br><span class="red">/por pessoa</span></h3>
-         <h3 class="valores_numero" id="resultado_pessoa"> $ 00 </h3 >
+         <h3 class="valores_letras">Tip Amount<br><span class="porPessoa"> /  person</span></h3>
+         <h3 class="valores_numero" id="resultado_pessoa"> $ 0.00 </h3 >
           
           
       </div >
       <div  class ="valores">
-          <h3 class="valores_letras"> Total <br> <span class="red">/por pessoa</span></h3> 
-           <h3  class="valores_numero" id="resultado_total" > $ 00 </h3>
+          <h3 class="valores_letras"> Total <br> <span class="porPessoa"> /  person</span></h3> 
+           <h3  class="valores_numero" id="resultado_total" > $ 0.00 </h3>
            
           
       </div >

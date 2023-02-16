@@ -2,7 +2,7 @@
 const resultaPorPessoa = document.querySelector("#resultado_pessoa");
 const resultadoTotal = document.querySelector("#resultado_total");
 
-const botao = document.querySelector("[data-botao]")
+const botao = document.querySelector("#botao5")
 const botao10 = document.querySelector("#botao10")
 const botao15 = document.querySelector("#botao15")
 const botao25 = document.querySelector("#botao25")
@@ -145,6 +145,9 @@ function calcularGorjeta5(){
  
  botao50.addEventListener('click', () => {
      calcularGorjeta50();
+     
+    
+        
      
  })
 
