@@ -1,13 +1,13 @@
 
-const resultaPorPessoa = document.querySelector("#resultado_pessoa");
-const resultadoTotal = document.querySelector("#resultado_total");
+const resultadoPessoa = document.querySelector("#result-person");
+const resultadoTotal = document.querySelector("#result-Total");
 
-const botao = document.querySelector("#botao5")
-const botao10 = document.querySelector("#botao10")
-const botao15 = document.querySelector("#botao15")
-const botao25 = document.querySelector("#botao25")
-const botao50 = document.querySelector("#botao50")
-const botaocust = document.querySelector("#costum")
+const button = document.querySelector("#button5")
+const button10 = document.querySelector("#button10")
+const button15 = document.querySelector("#button15")
+const button25 = document.querySelector("#button25")
+const button50 = document.querySelector("#button50")
+const buttoncust = document.querySelector("#costum")
 function calcularGorjeta5(){
     const bill = document.querySelector("#bill");
     const people = document.querySelector("#people");
@@ -15,11 +15,11 @@ function calcularGorjeta5(){
     
      if (bill.value !=="" && people.value !==""){
          
-        valorGorjetaPessoa = ( (bill.value/100) * botao.value)/people.value
+        valorGorjetaPessoa = ( (bill.value/100) * button.value)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
-         resultaPorPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
+         resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
+         resultadototal.innerHTML= valortotalPessoa.toFixed(2);
          console.log(bill.value)
          
      } else{
@@ -27,7 +27,7 @@ function calcularGorjeta5(){
           }
      }
  
- botao.addEventListener('click', () => {
+ button.addEventListener('click', () => {
      calcularGorjeta5();
      
  })
@@ -38,11 +38,11 @@ function calcularGorjeta5(){
     
      if (bill.value !=="" && people.value !==""){
          
-         valorGorjetaPessoa = ( (bill.value/100) * botao10.value)/people.value
+         valorGorjetaPessoa = ( (bill.value/100) * button10.value)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
-         resultaPorPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
+         resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
+         resultadototal.innerHTML= valortotalPessoa.toFixed(2);
          console.log(bill.value)
          
      } else{
@@ -50,7 +50,7 @@ function calcularGorjeta5(){
             }
      }
  
- botao10.addEventListener('click', () => {
+ button10.addEventListener('click', () => {
      calcularGorjeta10();
      
  })
@@ -62,11 +62,11 @@ function calcularGorjeta5(){
     
      if (bill.value !=="" && people.value !==""){
          
-         valorGorjetaPessoa = ( (bill.value/100) * botao15.value)/people.value
+         valorGorjetaPessoa = ( (bill.value/100) * button15.value)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
-         resultaPorPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
+         resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
+         resultadototal.innerHTML= valortotalPessoa.toFixed(2);
          console.log(bill.value)
          
      } else{
@@ -74,7 +74,7 @@ function calcularGorjeta5(){
             }
      }
  
- botao15.addEventListener('click', () => {
+ button15.addEventListener('click', () => {
      calcularGorjeta15();
      
  })
@@ -85,11 +85,11 @@ function calcularGorjeta5(){
     
      if (bill.value !=="" && people.value !==""){
          
-         valorGorjetaPessoa = ( (bill.value/100) * botao25.value)/people.value
+         valorGorjetaPessoa = ( (bill.value/100) * button25.value)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
-         resultaPorPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
+         resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
+         resultadototal.innerHTML= valortotalPessoa.toFixed(2);
          console.log(bill.value)
          
      } else{
@@ -97,7 +97,7 @@ function calcularGorjeta5(){
             }
      }
  
- botao25.addEventListener('click', () => {
+ button25.addEventListener('click', () => {
      calcularGorjeta25();
      
  })
@@ -108,11 +108,11 @@ function calcularGorjeta5(){
     
      if (bill.value !=="" && people.value !==""){
          
-         valorGorjetaPessoa = ( (bill.value/100) * botao50.value)/people.value
+         valorGorjetaPessoa = ( (bill.value/100) * button50.value)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
-         resultaPorPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
+         resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
+         resultadototal.innerHTML= valortotalPessoa.toFixed(2);
          console.log(bill.value)
          
      } else{
@@ -120,7 +120,7 @@ function calcularGorjeta5(){
             }
      }
  
- botao50.addEventListener('click', () => {
+ button50.addEventListener('click', () => {
      calcularGorjeta50();
      
  })
@@ -131,11 +131,11 @@ function calcularGorjeta5(){
     
      if (bill.value !=="" && people.value !==""){
          
-         valorGorjetaPessoa = ( (bill.value/100) * botao50.value)/people.value
+         valorGorjetaPessoa = ( (bill.value/100) * button50.value)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
-         resultaPorPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
+         resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
+         resultadototal.innerHTML= valortotalPessoa.toFixed(2);
          console.log(bill.value)
          
      } else{
@@ -143,7 +143,7 @@ function calcularGorjeta5(){
             }
      }
  
- botao50.addEventListener('click', () => {
+ button50.addEventListener('click', () => {
      calcularGorjeta50();
      
     
@@ -158,11 +158,11 @@ function calcularGorjeta5(){
     
      if (bill.value !=="" && people.value !==""){
          
-         valorGorjetaPessoa = ( (bill.value/100) * botaocust.value)/people.value
+         valorGorjetaPessoa = ( (bill.value/100) * buttoncust.value)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
-         resultaPorPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
+         resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
+         resultadototal.innerHTML= valortotalPessoa.toFixed(2);
          console.log(bill.value)
          
      } else{
@@ -170,7 +170,7 @@ function calcularGorjeta5(){
             }
      }
  
-     botaocust.addEventListener('click', () => {
+     buttoncust.addEventListener('click', () => {
      calcularGorjetacust();
      
  })

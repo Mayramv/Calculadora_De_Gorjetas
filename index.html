@@ -15,45 +15,50 @@
   <header class="header">
     <img src="images/logo.svg" alt="" class="logo">
   </header>
+
+
   <main class="main">
-    <div class="calculadora">
-      <div class="bill">
+    
+    <div class="calculator">
+      
+     <div class="bill">
         <label for="">Bill</label>
         <input type="number" id="bill" class="input-bill" required placeholder=" " >
-      <div class="porcentagem">
-        <label for="" >Select Tip %</label>
-        <div  class ="opcoes_porcentagem"  >
-          <input type="button" value="5"  class="botao" id="botao5"  onclick="document.querySelector('#botao5').classList.add('alterar')">
-          <input type="button" value="10" class="botao" id="botao10" onclick="document.querySelector('#botao10').classList.add('alterar')">
-          <input type="button" value="15" class="botao" id="botao15" onclick="document.querySelector('#botao15').classList.add('alterar')">
-          <input type="button" value="25" class="botao" id="botao25" onclick="document.querySelector('#botao25').classList.add('alterar')">
-          <input type="button" value="50" class="botao" id="botao50"  onclick="document.querySelector('#botao50').classList.add('alterar')">
-          <input type="text"  class="botao" id="costum"  placeholder="Costum" onclick="document.querySelector('#costum').classList.add('alterar')">
-          
+        
+          <div class="percentage">
+            <label for="" >Select Tip %</label>
+              <div  class ="percentage-options"  >
+                 <input type="button" value="5"  class="button" id="button5"  onclick="document.querySelector('#button5').classList.add('alter')">
+                 <input type="button" value="10" class="button" id="button10" onclick="document.querySelector('#button10').classList.add('alter')">
+                 <input type="button" value="15" class="button" id="button15" onclick="document.querySelector('#button15').classList.add('alter')">
+                <input type="button" value="25" class="button" id="button25" onclick="document.querySelector('#button25').classList.add('alter')">
+                <input type="button" value="50" class="button" id="button50"  onclick="document.querySelector('#button50').classList.add('alter')">
+                <input type="text"  class="button" id="costum"  placeholder="Costum" onclick="document.querySelector('#costum').classList.add('alter')">
+              </div>
+        
+             <label for="" >Number of People</label>
+             <span  class ="Notice"> Can' t be zero </span>
+             <input type="number" id="people" class="input-people" required placeholder=" ">
+          </div>
         </div>
-        
-        <label for="" >Number of People</label>
-        <span  class ="aviso"> Can' t be zero </span>
-        <input type="number" id="people" class="input-people" required placeholder=" ">
-      </div>
-        
-     </div>
-     <div class="valor">
-      <div  class ="valores" >
-         <h3 class="valores_letras">Tip Amount<br><span class="porPessoa"> /  person</span></h3>
-         <h3 class="valores_numero" id="resultado_pessoa"> $ 0.00 </h3 >
+
+     <div class="result">
+
+       <div  class ="values" >
+          <h3 class="values-h3">Tip Amount<br><span class="by-people"> /  person</span></h3>
+          <h2 class="values-h2" id="result-person"> $ 0.00 </h2 >
           
           
-      </div >
-      <div  class ="valores">
-          <h3 class="valores_letras"> Total <br> <span class="porPessoa"> /  person</span></h3> 
-           <h3  class="valores_numero" id="resultado_total" > $ 0.00 </h3>
+        </div >
+        <div  class ="values">
+           <h3 class="values-h3"> Total <br> <span class="by-people"> /  person</span></h3> 
+           <h2  class="values-h2" id="result-Total" > $ 0.00 </h2>
            
           
-      </div >
-      <div class="reset">
-        <input type="button" value="RESET" class="botao_reset" onclick="window.location.reload()">
-      </div>
+        </div >
+          <div class="reset">
+             <input type="button" value="RESET" class="button-reset" onclick="window.location.reload()">
+        </div>
      </div>
      
     </div>

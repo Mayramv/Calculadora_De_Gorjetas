@@ -9,7 +9,7 @@
     font-size: 12px;
     
 }
-.calculadora{
+.calculator{
     width: 50%;
     height: 300px;
     display: flex;
@@ -20,33 +20,14 @@
     justify-content: center;
     padding-bottom: 1em;
     padding-top: 1em;
-   
-    
-   
-    
-}
+   }
 
 .bill{
     width: 40%;
     height: 245PX;
     background-color:white;
     border-radius: 15px;
-    
 }
-
-.valor{
-    width:40%;
-    height: 245PX;
-   background-color:hsl(183, 100%, 15%);
-   border-radius: 15px;
-   display: flex;
-   flex-direction: column;
-   
-  
-
-}
-
-
 .input-bill{
     padding-top: 1em;
     background-color:hsl(189, 41%, 97%);
@@ -57,6 +38,53 @@
     font-size: 16px;
     text-align:end;
     cursor: pointer;
+    
+}
+.input-bill::placeholder{
+    background: url(../images/icon-dollar.svg) no-repeat;
+    background-position: 1em;
+}
+.input-bill:hover {
+	border-color: hsl(172, 67%, 45%);
+    border-width: 3px;
+}
+.percentage{
+    padding-top: 1em;
+    
+}
+.percentage-options{
+    padding-top: 0.5em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    padding-bottom: 0.25em;
+    font-size: 24px;
+    
+}
+.button{
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    color: white;
+    width: 60px;
+    height: 35px;
+    padding-bottom: 0.25em;
+    margin-bottom: 1em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.button:hover{
+    border-color: hsl(172, 67%, 45%);
+    border-width: 3px;
+}
+.alter{
+    background-color:hsl(172, 67%, 45%);
+}
+.Notice{
+    font-size: 8px;
+    color: rgb(201, 25, 25);
+    margin-left: 50px;
     
 }
 .input-people{
@@ -77,46 +105,20 @@
     padding-bottom: 1px;
     
 }
-.input-bill::placeholder{
-    background: url(../images/icon-dollar.svg) no-repeat;
-    background-position: 1em;
+.input-people:hover {
+	border-color: rgb(201, 25, 25);
+    border-width: 3px;
 }
-.porcentagem{
-    padding-top: 1em;
-    
+.result{
+    width:40%;
+    height: 245PX;
+   background-color:hsl(183, 100%, 15%);
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   
 }
-.opcoes_porcentagem{
-    padding-top: 0.5em;
-    padding-left: 0.25em;
-    padding-right: 0.25em;
-    padding-bottom: 0.25em;
-    font-size: 24px;
-    
-}
-.botao{
-    background-color: hsl(183, 100%, 15%);
-    border-radius: 5px;
-    color: white;
-    width: 60px;
-    height: 35px;
-    padding-bottom: 0.25em;
-    margin-bottom: 1em;
-    margin-left: 0.25em;
-    margin-right: 0.25em;
-    font-weight: bolder;
-    cursor: pointer;
-
-}
-.alterar{
-    background-color:hsl(172, 67%, 45%);
-}
-.aviso{
-    font-size: 8px;
-    color: rgb(201, 25, 25);
-    margin-left: 50px;
-    
-}
-.valores{
+.values{
     display: flex;
     flex-direction: row;
     
@@ -127,31 +129,25 @@
     color: hsl(172, 67%, 45%);
 
 }
-.valores_letras{
+.values-h3{
     color:hsl(0, 0%, 100%);
     width: 50%;
     font-size: 12px;
 }
-.valores_numero{
+.values-h2{
     color:hsl(172, 67%, 45%);
-
     font-weight: bold;
     font-size: 24px;
 }
-.porPessoa{
+.by-people{
     color: hsl(186, 14%, 43%);
-   
-    font-weight: bold
-    
+   font-weight: bold
 }
 .reset{
     width: 100%;
     height: 40PX;
-    
-
-    
 }
-.botao_reset{
+.button-reset{
     width: 220px;
     height: 30px;
     padding-bottom: 0.25em;
@@ -165,15 +161,6 @@
     font-weight: bolder;
     cursor: pointer;
 }
-.botao:hover{
-    border-color: hsl(172, 67%, 45%);
-    border-width: 3px;
-}
-.input-bill:hover {
-	border-color: hsl(172, 67%, 45%);
-    border-width: 3px;
-}
-.input-people:hover {
-	border-color: rgb(201, 25, 25);
-    border-width: 3px;
-}
+
+
+
