@@ -19,7 +19,7 @@ function calcularGorjeta5(){
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
          resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadototal.innerHTML= valortotalPessoa.toFixed(2);
+         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
          console.log(bill.value)
          
      } else{
