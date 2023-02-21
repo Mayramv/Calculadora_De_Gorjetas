@@ -1,7 +1,8 @@
 # Calculadora_De_Gorjetas 
 
 ## Demo
-![Calculadora-Gorjeta](https://user-images.githubusercontent.com/106702919/219907851-02341e2e-43cd-4cfa-8c04-2331365aa2e8.png)
+![calculadora-gorjeta](https://user-images.githubusercontent.com/106702919/220413379-d233a17e-e030-4e7b-93bd-d07857575427.png)
+
 
 ## Funcionalidade 
 
