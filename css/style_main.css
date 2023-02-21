@@ -60,6 +60,9 @@
     font-size: 24px;
     
 }
+#button5::after{
+ content: "☆";
+}
 .button{
     background-color: hsl(183, 100%, 15%);
     border-radius: 5px;
@@ -78,6 +81,7 @@
     border-color: hsl(172, 67%, 45%);
     border-width: 3px;
 }
+
 .alter{
     background-color:hsl(172, 67%, 45%);
 }

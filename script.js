@@ -15,7 +15,7 @@ function calcularGorjeta5(){
     
      if (bill.value !=="" && people.value !==""){
          
-        valorGorjetaPessoa = ( (bill.value/100) * button.value)/people.value
+        valorGorjetaPessoa = ( (bill.value/100) * 5)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
          resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
@@ -38,11 +38,11 @@ function calcularGorjeta5(){
     
      if (bill.value !=="" && people.value !==""){
          
-         valorGorjetaPessoa = ( (bill.value/100) * button10.value)/people.value
+         valorGorjetaPessoa = ( (bill.value/100) * 10)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
-         resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadototal.innerHTML= valortotalPessoa.toFixed(2);
+        resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
+         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
          console.log(bill.value)
          
      } else{
@@ -62,12 +62,13 @@ function calcularGorjeta5(){
     
      if (bill.value !=="" && people.value !==""){
          
-         valorGorjetaPessoa = ( (bill.value/100) * button15.value)/people.value
+         valorGorjetaPessoa = ( (bill.value/100) * 15)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
          resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadototal.innerHTML= valortotalPessoa.toFixed(2);
+         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
          console.log(bill.value)
+         
          
      } else{
          alert("Preencha todos os campos")
@@ -85,11 +86,11 @@ function calcularGorjeta5(){
     
      if (bill.value !=="" && people.value !==""){
          
-         valorGorjetaPessoa = ( (bill.value/100) * button25.value)/people.value
+         valorGorjetaPessoa = ( (bill.value/100) * 25)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
          resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadototal.innerHTML= valortotalPessoa.toFixed(2);
+         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
          console.log(bill.value)
          
      } else{
@@ -108,11 +109,11 @@ function calcularGorjeta5(){
     
      if (bill.value !=="" && people.value !==""){
          
-         valorGorjetaPessoa = ( (bill.value/100) * button50.value)/people.value
+         valorGorjetaPessoa = ( (bill.value/100) * 50)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
          resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadototal.innerHTML= valortotalPessoa.toFixed(2);
+         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
          console.log(bill.value)
          
      } else{
@@ -122,32 +123,6 @@ function calcularGorjeta5(){
  
  button50.addEventListener('click', () => {
      calcularGorjeta50();
-     
- })
- function calcularGorjeta50(){
-    const bill = document.querySelector("#bill");
-    const people = document.querySelector("#people");
-   
-    
-     if (bill.value !=="" && people.value !==""){
-         
-         valorGorjetaPessoa = ( (bill.value/100) * button50.value)/people.value
-        valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
-
-         resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadototal.innerHTML= valortotalPessoa.toFixed(2);
-         console.log(bill.value)
-         
-     } else{
-         alert("Preencha todos os campos")
-            }
-     }
- 
- button50.addEventListener('click', () => {
-     calcularGorjeta50();
-     
-    
-        
      
  })
 
@@ -162,7 +137,7 @@ function calcularGorjeta5(){
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
          resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadototal.innerHTML= valortotalPessoa.toFixed(2);
+         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
          console.log(bill.value)
          
      } else{
