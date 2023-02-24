@@ -18,8 +18,8 @@ function calcularGorjeta5(){
         valorGorjetaPessoa = ( (bill.value/100) * 5)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
-         resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
+         resultadoPessoa.innerHTML=`\$ ${valorGorjetaPessoa.toFixed(2)}`;
+         resultadoTotal.innerHTML= `\$ ${valortotalPessoa.toFixed(2)}`;
          console.log(bill.value)
          
      } else{
@@ -41,8 +41,8 @@ function calcularGorjeta5(){
          valorGorjetaPessoa = ( (bill.value/100) * 10)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
-        resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
+        resultadoPessoa.innerHTML=`\$ ${valorGorjetaPessoa.toFixed(2)}`;
+         resultadoTotal.innerHTML= `\$ ${valortotalPessoa.toFixed(2)}`;
          console.log(bill.value)
          
      } else{
@@ -65,8 +65,8 @@ function calcularGorjeta5(){
          valorGorjetaPessoa = ( (bill.value/100) * 15)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
-         resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
+        resultadoPessoa.innerHTML=`\$ ${valorGorjetaPessoa.toFixed(2)}`;
+        resultadoTotal.innerHTML= `\$ ${valortotalPessoa.toFixed(2)}`;
          console.log(bill.value)
          
          
@@ -89,8 +89,8 @@ function calcularGorjeta5(){
          valorGorjetaPessoa = ( (bill.value/100) * 25)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
-         resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
+        resultadoPessoa.innerHTML=`\$ ${valorGorjetaPessoa.toFixed(2)}`;
+        resultadoTotal.innerHTML= `\$ ${valortotalPessoa.toFixed(2)}`;
          console.log(bill.value)
          
      } else{
@@ -112,8 +112,8 @@ function calcularGorjeta5(){
          valorGorjetaPessoa = ( (bill.value/100) * 50)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
-         resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
+        resultadoPessoa.innerHTML=`\$ ${valorGorjetaPessoa.toFixed(2)}`;
+        resultadoTotal.innerHTML= `\$ ${valortotalPessoa.toFixed(2)}`;
          console.log(bill.value)
          
      } else{
@@ -136,8 +136,8 @@ function calcularGorjeta5(){
          valorGorjetaPessoa = ( (bill.value/100) * buttoncust.value)/people.value
         valortotalPessoa= (bill.value/people.value) +  valorGorjetaPessoa
 
-         resultadoPessoa.innerHTML= valorGorjetaPessoa.toFixed(2);
-         resultadoTotal.innerHTML= valortotalPessoa.toFixed(2);
+        resultadoPessoa.innerHTML=`\$ ${valorGorjetaPessoa.toFixed(2)}`;
+         resultadoTotal.innerHTML= `\$ ${valortotalPessoa.toFixed(2)}`;
          console.log(bill.value)
          
      } else{
